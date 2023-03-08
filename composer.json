@@ -19,5 +19,5 @@
             "homepage": "https://notsoweb.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
