@@ -1,4 +1,4 @@
-<?php namespace Notsoweb\Author;
+<?php namespace Notsoweb\Author\Http\Controllers;
 /**
  * @copyright Copyright (c) 2023 Notsoweb (https://notsoweb.com) - All rights reserved.
  */

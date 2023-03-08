@@ -1,4 +1,4 @@
-<?php namespace Notsoweb\Author;
+<?php namespace Notsoweb\Author\Providers;
 /**
  * @copyright Copyright (c) 2023 Notsoweb (https://notsoweb.com) - All rights reserved.
  */
@@ -32,8 +32,8 @@ class AuthorServiceProvider extends ServiceProvider
     public function boot()
     {
         // Rutas
-        $this->loadRoutesFrom(__DIR__.'/routes.php');
+        $this->loadRoutesFrom(__DIR__.'/../../routes/web.php');
         // Vistas
-        $this->loadViewsFrom(__DIR__.'/views', 'nsw-author');
+        $this->loadViewsFrom(__DIR__.'/../../views', 'nsw-author');
     }
 }
